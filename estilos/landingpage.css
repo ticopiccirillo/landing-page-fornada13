@@ -1,0 +1,306 @@
+* { margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+main {
+    display: block;
+    background-color: rgb(32, 32, 32);
+    width: 100vw;
+    height: 100vh;
+}
+
+#section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+#logo {
+    border-radius: 50%;
+    margin: 20px;
+    padding: 2%;
+    width: 12%;
+    height: 15%;
+}
+
+#text1 {
+    display: block;
+    color: #c3a602;
+    text-shadow: 10px 20px 10px rgba(0, 0, 0, 0.563);
+}
+
+h1 {
+    width: 80vw;
+    font-size: 3.5em;
+    font-family: cursive;
+    text-align: center;
+    margin: 3% auto;
+}
+
+#text1 .subheadline{
+    color: white;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#section2 {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.sec2 {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+#descricao {
+    display: block;
+    font-size: 2em;
+    font-family: cursive;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 3%;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+#div-botao {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 2%;
+}
+
+#botao {
+    display: block;
+    background-color: #45c202;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 120px;
+    border-radius: 20px;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 5px 2px 5px black;
+    box-shadow: 10px 10px 10px black;
+    transition: .5s;
+    border: none;
+    cursor: pointer;
+}
+
+#botao:hover {
+    transform: scale(1.2);
+}
+
+#panettone {
+    display: block;
+    border-radius: 5%;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+}
+
+/*Iniciando responsivo*/
+
+@media (max-width: 768px) {
+    main {
+        display: block;
+        background-color: rgb(32, 32, 32);
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #section1 {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    #logo {
+        border-radius: 50%;
+        margin: 20px;
+        padding: 2%;
+        width: 12%;
+        height: 15%;
+    }
+    
+    #text1 {
+        display: block;
+        color: #c3a602;
+        text-shadow: 10px 20px 10px rgba(0, 0, 0, 0.563);
+        font-size: .8em;
+    }
+     
+    #text1 .subheadline{
+        color: white;
+        font-size: 1.2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+       
+    .sec2 {
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: auto;
+    }
+    
+    #descricao {
+        font-size: 1.2em;
+        
+    }
+    
+    #botao {
+        margin-top: 30px;
+        padding: 20px;
+        width: 450px;
+        height: 100px;
+        font-size: 2.5em;
+    }
+    
+    #botao:hover {
+        transform: scale(1.1);
+    }
+    
+    #panettone {
+        display: block;
+        border-radius: 5%;
+        margin: auto;
+        margin-bottom: 110px;
+        width: 80%;
+        height: 100%;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    main {
+        display: block;
+        background-color: rgb(32, 32, 32);
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    #section1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    #logo {
+        border-radius: 50%;
+        margin: 20px;
+        padding: 2%;
+        width: 12%;
+        height: 15%;
+    }
+    
+    #text1 {
+        display: block;
+        color: #c3a602;
+        text-shadow: 10px 20px 10px rgba(0, 0, 0, 0.563);
+    }
+    
+    h1 {
+        width: 80vw;
+        font-size: 3em;
+        font-family: cursive;
+        text-align: center;
+        margin: 3% auto;
+    }
+    
+    #text1 .subheadline{
+        color: white;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    
+    #section2 {
+        display: flex;
+        width: 100vw;
+        height: auto;
+        margin: 50px auto;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .sec2 {
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: auto;
+    }
+    
+    #descricao {
+        display: block;
+        font-size: 2em;
+        font-family: cursive;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        padding: 3%;
+        color: white;
+        width: 100%;
+        height: auto;
+    }
+    
+    #div-botao {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding: 2%;
+    }
+    
+    #botao {
+        display: block;
+        background-color: #45c202;
+        align-items: center;
+        justify-content: center;
+        width: 550px;
+        height: 120px;
+        border-radius: 20px;
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        text-shadow: 5px 2px 5px black;
+        box-shadow: 10px 10px 10px black;
+        transition: .5s;
+        border: none;
+        cursor: pointer;
+    }
+    
+    #botao:hover {
+        transform: scale(1.2);
+    }
+    
+    #panettone {
+        display: block;
+        border-radius: 5%;
+        margin: auto;
+        width: 50%;
+        height: 100%;
+    }
+}
